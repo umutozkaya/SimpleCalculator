@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             resultText.setText("Enter number!!!");
 
          }
-        if (number1Text.getText().toString().matches("0")||number2Text.getText().toString().matches("0") ) {
+        else if  (number1Text.getText().toString().matches("0")||number2Text.getText().toString().matches("0") ) {
             resultText.setText("Please enter a value other than zero!");
         }else {
             int number1=Integer.parseInt(number1Text.getText().toString());
